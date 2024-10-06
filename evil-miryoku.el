@@ -119,7 +119,8 @@
       "gu" 'evil-insert-resume
       "gU" 'evil-insert-0-line
 
-      "m" 'evil-open-below)
+      "m" 'evil-open-below
+      "M" 'evil-open-above)
     (evil-define-key 'visual keymap
       "l" 'evil-downcase
       "L" 'evil-upcase
@@ -182,4 +183,3 @@
   "Global minor mode with evil-mode enhancements for the Miryoku keyboard layout.")
 
 (provide 'evil-miryoku)
-
